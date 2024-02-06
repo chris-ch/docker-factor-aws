@@ -33,9 +33,6 @@ RUN git clone git://factorcode.org/git/factor.git
 
 RUN cd /home/factor/factor && ./build.sh update
 
-RUN cat >> /home/factor/.bashrc <<EOT
-> 
-> EOT
 RUN /bin/echo -e "\nalias factor=/home/${USER_NAME}/factor/factor\n" >> /home/${USER_NAME}/.bashrc
 
 CMD [ "sleep", "infinity" ]
