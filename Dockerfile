@@ -10,6 +10,9 @@ RUN \
         glibc-static \
         zlib-devel \
         zlib-static \
+        autoconf \
+        automake \
+        libtool \
         vim \
         sudo \
         jq \
