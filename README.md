@@ -1,2 +1,3 @@
-# docker-factor-lang
-Docker image for developing in the Factor language
+# docker-factor-aws
+Docker image for developing custom AWS Lambda functions in the Factor language.
+
